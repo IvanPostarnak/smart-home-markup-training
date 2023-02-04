@@ -14,7 +14,14 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 10px;
-  color: #000000;
+  color: #ffffff;
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  z-index: 0;
 }
 
 /*# sourceMappingURL=index.css.map */
