@@ -1,0 +1,48 @@
+$montserrat: 'Montserrat', sans-serif;
+$audiowide: 'Audiowide', cursive;
+
+$regular: 400;
+$medium: 500;
+$semibold: 600;
+$bold: 700;
+
+$white: #ffffff;
+
+$slide-max-width: 1440px;
+
+$top-layer: 10;
+$medium-layer: 5;
+$bottom-layer: 1;
+$background-layer: 0;
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-family: $montserrat;
+  font-weight: $regular;
+  font-size: 10px;
+  color: $white;
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  z-index: $background-layer;
+}
+
+.horizontal-container {
+  
+}
+
+/* SLIDE-INTRO */
