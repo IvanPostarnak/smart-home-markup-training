@@ -1,3 +1,5 @@
+@import 'blocks/social-media-icons/social-media-icons';
+
 $montserrat: 'Montserrat', sans-serif;
 $audiowide: 'Audiowide', cursive;
 
@@ -39,4 +41,30 @@ $background-layer: 0;
   min-height: 100vh;
   background-color: black;
   z-index: $background-layer;
+}
+
+.container {
+  width: 100%;
+  position: relative;
+  z-index: $bottom-layer;
+}
+
+/* SLIDE */
+
+.slide {
+  width: $slide-max-width;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+	&--first {
+    height: 900px;
+	}
+
+	&__inner {
+    width: 100%;
+    max-width: 1200px;
+    z-index: $top-layer;
+	}
 }

@@ -1,0 +1,21 @@
+.social-media-icons {
+  width: 100%;
+  max-width: 145px;
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+
+  &__link {
+    display: inline-block;
+  }
+
+  &__img {
+    width: 28px;
+    height: 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
