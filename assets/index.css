@@ -67,6 +67,7 @@
   padding: 12px 27px;
   border: 1px solid #ffffff;
   border-radius: 20px/50%;
+  outline: none;
 }
 .header ::placeholder {
   font-family: "Montserrat", sans-serif;
@@ -168,6 +169,7 @@
   max-width: 280px;
   height: 55px;
   font-size: 2.76rem;
+  line-height: 2.76rem;
   color: #ffffff;
   background-color: transparent;
   text-align: center;
