@@ -1,22 +1,21 @@
 @import 'blocks/social-media-icons/social-media-icons';
 @import 'blocks/logo/logo';
+@import 'blocks/header/header';
 
 $montserrat: 'Montserrat', sans-serif;
 $audiowide: 'Audiowide', cursive;
-
 $regular: 400;
 $medium: 500;
 $semibold: 600;
 $bold: 700;
-
 $white: #ffffff;
-
-$slide-max-width: 1440px;
 
 $top-layer: 10;
 $medium-layer: 5;
 $bottom-layer: 1;
 $background-layer: 0;
+
+$slide-max-width: 1440px;
 
 *,
 *::after,
@@ -65,7 +64,22 @@ $background-layer: 0;
 
 	&__inner {
     width: 100%;
-    max-width: 1200px;
     z-index: $top-layer;
+
+    &--first {
+      max-width: 1275px;
+      min-height: 720px;
+    }
 	}
+}
+
+::placeholder {
+  font-family: $montserrat;
+  font-weight: $medium;
+  font-size: 2.186rem;
+  color: $white;
+}
+
+.smart-home-button-style {
+  border-radius: 20px;
 }
