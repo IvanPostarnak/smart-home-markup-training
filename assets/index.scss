@@ -80,6 +80,10 @@ $slide-max-width: 1440px;
     height: 900px;
   }
 
+  &--sixth-slide {
+    height: $slide-max-width;
+  }
+
 	&__inner {
     width: 100%;
     z-index: $top-layer;
@@ -133,6 +137,15 @@ $slide-max-width: 1440px;
       justify-content: space-between;
       align-items: center;
     }
+
+    &--sixth-slide {
+      max-width: 1160px;
+      height: 1160px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
 	}
 
 	&__content {
@@ -177,6 +190,15 @@ $slide-max-width: 1440px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      align-items: flex-start;
+		}
+
+    &--sixth-slide {
+      width: 580px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
       align-items: flex-start;
 		}
 	}
@@ -244,6 +266,13 @@ $slide-max-width: 1440px;
       font-family: $audiowide;
       font-size: 8.841rem;
       line-height: 11.788rem;
+		}
+
+    &--sixth-slide {
+      font-family: $audiowide;
+      font-size: 5.833rem;
+      line-height: 6.667rem;
+      letter-spacing: 10px;
 		}
 	}
 
@@ -334,6 +363,84 @@ $slide-max-width: 1440px;
       align-items: flex-end;
 		}
 	}
+
+  &__list {
+
+		&--sixth-slide {
+      margin-top: 100px;
+      list-style-type: disc;
+      list-style-position: inside;
+		}
+	}
+
+	&__list-item {
+
+		&--sixth-slide {
+      font-size: 2.5rem;
+      line-height: 3.333rem;
+      margin-top: 50px;
+		}
+
+    &--sixth-slide:first-child {
+      margin-top: 0;
+		}
+  }
+  
+  &__form {
+
+    &--sixth-slide {
+      margin-top: 100px;
+      align-self: center;
+      text-align: center;
+    }
+
+    &-suptitle {
+
+      &--sixth-slide {
+        font-weight: $bold;
+        font-size: 2.7rem;
+        font-style: oblique;
+        letter-spacing: 10px;
+      }
+    }
+  
+    &-title {
+  
+      &--sixth-slide {
+        font-weight: $bold;
+        font-size: 6.277rem;
+        font-style: oblique;
+        line-height: 7.653rem;
+        letter-spacing: 10px;
+      }
+    }
+  
+    &-description {
+  
+      &--sixth-slide {
+        font-weight: $medium;
+        font-size: 2.5rem;
+        line-height: 4.155rem;
+        margin-top: 60px;
+      }
+    }
+  
+    &-source {
+  
+      &--sixth-slide {
+        font-size: inherit;
+        color: inherit;
+        text-decoration: none;
+        min-width: 200px;
+        min-height: 65px;
+        background-color: transparent;
+        border: 1px solid $white;
+        display: inline-block;
+        margin: 25px 15px 0;
+        cursor: pointer;
+      } 
+    }
+  }
 }
 
 ::placeholder {
