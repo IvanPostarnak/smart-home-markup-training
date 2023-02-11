@@ -75,6 +75,10 @@ $slide-max-width: 1440px;
     height: 1175px;
   }
 
+  &--fifth-slide {
+    height: 900px;
+  }
+
 	&__inner {
     width: 100%;
     z-index: $top-layer;
@@ -119,6 +123,15 @@ $slide-max-width: 1440px;
       justify-content: space-between;
       align-items: center;
     }
+
+    &--fifth-slide {
+      max-width: 1300px;
+      height: 540px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
 	}
 
 	&__content {
@@ -156,6 +169,15 @@ $slide-max-width: 1440px;
       justify-content: space-between;
       align-items: flex-start;
 		}
+
+    &--fifth-slide {
+      width: 700px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: flex-start;
+		}
 	}
 
 	&__text-info {
@@ -177,6 +199,15 @@ $slide-max-width: 1440px;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: flex-start;
+		}
+
+    &--fifth-slide {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       align-items: flex-start;
 		}
 	}
@@ -206,6 +237,12 @@ $slide-max-width: 1440px;
       font-weight: $semibold;
       font-size: 5.833rem;
       line-height: 6.744rem;
+		}
+
+    &--fifth-slide {
+      font-family: $audiowide;
+      font-size: 8.841rem;
+      line-height: 11.788rem;
 		}
 	}
 
@@ -237,18 +274,21 @@ $slide-max-width: 1440px;
 
     &--third-slide {
       margin-top: 30px;
-      font-weight: $regular;
       font-size: 2.083rem;
       line-height: 2.5rem;
       text-align: center;
 		}
 
     &--fourth-slide {
-      font-weight: $regular;
       font-size: 2.5rem;
       line-height: 1.33;
       overflow: hidden;
       text-align: center;
+		}
+
+    &--fifth-slide {
+      font-size: 2.5rem;
+      line-height: 1.33;
 		}
 	}
 
@@ -267,6 +307,22 @@ $slide-max-width: 1440px;
       border: 1px solid $white;
       display: inline-block;
       border-radius: 30px / 50%;
+      cursor: pointer;
+		}
+
+    &--fifth-slide {
+      width: auto;
+      min-width: 280px;
+      height: 50px;
+      font-size: 2.76rem;
+      line-height: 2.76rem;
+      color: $white;
+      background-color: transparent;
+      text-align: center;
+      padding: 10px 65px;
+      border: 1px solid $white;
+      display: inline-block;
+      border-radius: 25px / 50%;
       cursor: pointer;
 		}
 	}
