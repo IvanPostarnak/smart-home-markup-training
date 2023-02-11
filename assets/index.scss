@@ -552,6 +552,82 @@ $slide-max-width: 1440px;
   }
 }
 
+.hex {
+  position: absolute;
+  z-index: $medium-layer;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  &--first {
+    width: 240px;
+    height: 554px;
+    background-image: url(img/hexes/smart-house_hexes_1.png);
+    left: 0;
+    bottom: -250px;
+  }
+
+  &--second {
+    width: 315px;
+    height: 553px;
+    background-image: url(img/hexes/smart-house_hexes_2.png);
+    right: 0;
+    bottom: -300px;
+  }
+
+  &--third {
+    width: 222px;
+    height: 1063px;
+    background-image: url(img/hexes/smart-house_hexes_3.png);
+    left: 0;
+    bottom: -800px;
+  }
+
+  &--fourth {
+    width: 262px;
+    height: 1063px;
+    background-image: url(img/hexes/smart-house_hexes_4.png);
+    right: 0;
+    bottom: 0;
+  }
+
+  &--fifth {
+    width: 280px;
+    height: 554px;
+    background-image: url(img/hexes/smart-house_hexes_5.png);
+    left: 0;
+    bottom: 0;
+  }
+
+  &--sixth {
+    width: 345px;
+    height: 553px;
+    background-image: url(img/hexes/smart-house_hexes_6.png);
+    right: 0;
+    bottom: -250px;
+  }
+
+  &--seventh {
+    width: 277px;
+    height: 547px;
+    background-image: url(img/hexes/smart-house_hexes_7.png);
+    left: -100px;
+    top: 0;
+  }
+
+  &--eighth {
+    width: 611px;
+    height: 742px;
+    background-image: url(img/hexes/smart-house_hexes_8.png);
+    right: 0;
+    bottom: 0;
+  }
+}
+
+
 ::placeholder {
   font-family: $montserrat;
   font-weight: $medium;
