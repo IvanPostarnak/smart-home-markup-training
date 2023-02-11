@@ -1,0 +1,54 @@
+$audiowide: 'Audiowide', cursive;
+$white: #ffffff;
+$top-layer: 10;
+
+.smartphone {
+  width: 560px;
+  height: 1075px;
+  background-color: transparent;
+  background-image: url(blocks/smartphone/img/smartphone.webp), url(blocks/smartphone/img/smartphone.png);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: $top-layer;
+
+  &__inner {
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    font-family: $audiowide;
+    font-size: 3.828rem;
+    line-height: 4.785rem;
+    color: $white;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+
+  &__picture {
+  }
+
+  &__button {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid $white;
+    text-align: center;
+    font-size: 2.76rem;
+    line-height: 2.76rem;
+    color: $white;
+    background-color: transparent;
+    width: auto;
+    max-width: 280px;
+    height: 55px;
+    padding: 12px 35px;
+    border-radius: 30px / 50%;
+  }
+}
