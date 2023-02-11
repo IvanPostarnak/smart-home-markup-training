@@ -166,7 +166,6 @@
   text-align: center;
 }
 .smartphone__button {
-  text-decoration: none;
   cursor: pointer;
   display: inline-block;
   border: 1px solid #ffffff;
@@ -676,7 +675,7 @@
   height: 1063px;
   background-image: url(img/hexes/smart-house_hexes_4.png);
   right: 0;
-  bottom: 0;
+  bottom: -500px;
 }
 .hex--fifth {
   width: 280px;
