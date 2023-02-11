@@ -180,6 +180,39 @@
   border-radius: 30px/50%;
 }
 
+.our-contacts {
+  font-style: normal;
+}
+.our-contacts__list {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.our-contacts__list-item {
+  height: 40px;
+  position: relative;
+}
+.our-contacts__list-item:nth-child(1) {
+  list-style-image: url(blocks/address/img/address_phone-icon.webp);
+}
+.our-contacts__list-item:nth-child(2) {
+  list-style-image: url(blocks/address/img/address_email-icon.webp);
+}
+.our-contacts__list-item:nth-child(3) {
+  list-style-image: url(blocks/address/img/address_address-icon.webp);
+}
+.our-contacts__single-link {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 2.309rem;
+  line-height: 2.878rem;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
 *,
 *::after,
 *::before {
@@ -238,6 +271,9 @@
 .slide--sixth-slide {
   height: 1440px;
 }
+.slide--seventh-slide {
+  height: 1100px;
+}
 .slide__inner {
   width: 100%;
   z-index: 10;
@@ -294,6 +330,14 @@
   justify-content: space-between;
   align-items: flex-end;
 }
+.slide__inner--seventh-slide {
+  max-width: 1210px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 .slide__content {
   width: 100%;
 }
@@ -342,6 +386,14 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+.slide__content--seventh-slide {
+  width: 520px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .slide__text-info--first-slide {
   width: 100%;
   max-width: 510px;
@@ -368,10 +420,19 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+.slide__text-info--seventh-slide {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
 .slide__title--first-slide {
   font-family: "Audiowide", cursive;
   font-size: 10.374rem;
   line-height: 9.686rem;
+  letter-spacing: 10px;
 }
 .slide__title--second-slide {
   font-family: "Audiowide", cursive;
@@ -388,6 +449,7 @@
   font-weight: 600;
   font-size: 5.833rem;
   line-height: 6.744rem;
+  letter-spacing: 10px;
 }
 .slide__title--fifth-slide {
   font-family: "Audiowide", cursive;
@@ -396,6 +458,12 @@
 }
 .slide__title--sixth-slide {
   font-family: "Audiowide", cursive;
+  font-size: 5.833rem;
+  line-height: 6.667rem;
+  letter-spacing: 10px;
+}
+.slide__title--seventh-slide {
+  font-weight: 600;
   font-size: 5.833rem;
   line-height: 6.667rem;
   letter-spacing: 10px;
@@ -430,6 +498,10 @@
   text-align: center;
 }
 .slide__description--fifth-slide {
+  font-size: 2.5rem;
+  line-height: 1.33;
+}
+.slide__description--seventh-slide {
   font-size: 2.5rem;
   line-height: 1.33;
 }
