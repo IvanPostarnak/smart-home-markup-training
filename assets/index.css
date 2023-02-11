@@ -119,6 +119,9 @@
 .slide--first-slide {
   height: 900px;
 }
+.slide--second-slide {
+  height: 900px;
+}
 .slide__inner {
   width: 100%;
   z-index: 10;
@@ -128,6 +131,14 @@
   min-height: 720px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.slide__inner--second-slide {
+  max-width: 1275px;
+  min-height: 720px;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -142,6 +153,13 @@
   justify-content: space-between;
   align-items: center;
 }
+.slide__content--second-slide {
+  max-width: 470px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
 .slide__text-info--first-slide {
   width: 100%;
   max-width: 510px;
@@ -151,18 +169,41 @@
   justify-content: space-between;
   align-items: flex-start;
 }
+.slide__text-info--second-slide {
+  width: 100%;
+  max-width: 470px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
 .slide__title--first-slide {
   font-family: "Audiowide", cursive;
   font-size: 10.374rem;
   line-height: 9.686rem;
 }
+.slide__title--second-slide {
+  font-family: "Audiowide", cursive;
+  font-size: 5.41rem;
+  line-height: 6.181rem;
+}
 .slide__subtitle--first-slide {
   font-weight: 500;
   font-size: 5.836rem;
 }
+.slide__subtitle--second-slide {
+  font-weight: 500;
+  font-size: 3.662rem;
+}
 .slide__description--first-slide {
   font-weight: 500;
   font-size: 2.631rem;
+}
+.slide__description--second-slide {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 2.5rem;
 }
 .slide__button--first-slide {
   width: 100%;
