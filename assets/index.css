@@ -118,6 +118,7 @@
   margin: 15px auto 30px;
 }
 .security-mode-card__see-more-button {
+  text-decoration: none;
   width: auto;
   min-width: 150px;
   height: 46px;
@@ -165,6 +166,7 @@
   text-align: center;
 }
 .smartphone__button {
+  text-decoration: none;
   cursor: pointer;
   display: inline-block;
   border: 1px solid #ffffff;
@@ -340,6 +342,7 @@
 }
 .slide__content {
   width: 100%;
+  z-index: 10;
 }
 .slide__content--first-slide {
   max-width: 1200px;
@@ -506,6 +509,7 @@
   line-height: 1.33;
 }
 .slide__button {
+  text-decoration: none;
   cursor: pointer;
   display: inline-block;
   border: 1px solid #ffffff;

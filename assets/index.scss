@@ -164,6 +164,7 @@ $slide-max-width: 1440px;
 
 	&__content {
     width: 100%;
+    z-index: $top-layer;
 
 		&--first-slide {
       max-width: 1200px;
@@ -369,6 +370,7 @@ $slide-max-width: 1440px;
 	}
 
 	&__button {
+    text-decoration: none;
     cursor: pointer;
     display: inline-block;
     border: 1px solid $white;
