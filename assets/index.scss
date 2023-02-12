@@ -91,89 +91,71 @@ $slide-max-width: 1440px;
 
 	&__inner {
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     z-index: $top-layer;
 
     &--first-slide {
       max-width: 1275px;
       min-height: 720px;
-      display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
     }
 
     &--second-slide {
       max-width: 1275px;
       min-height: 720px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
     }
 
     &--third-slide {
       max-width: 1344px;
       height: 545px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
-
+      background-color: rgba($white, 0.2);
+      padding: 35px;
       border: 1px solid $white;
       -webkit-border-radius: 45px;
       -moz-border-radius: 45px;
       -ms-border-radius: 45px;
       -o-border-radius: 45px;
       border-radius: 45px;
-      background-color: rgba($white, 0.2);
-      padding: 35px;
     }
 
     &--fourth-slide {
       max-width: 1250px;
       height: 950px;
-      display: flex;
       flex-direction: column;
-      justify-content: space-between;
-      align-items: center;
     }
 
     &--fifth-slide {
       max-width: 1300px;
       height: 540px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      align-items: center;
     }
 
     &--sixth-slide {
       max-width: 1160px;
       height: 1160px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
       align-items: flex-end;
     }
 
     &--seventh-slide {
       max-width: 1210px;
       height: 800px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
       align-items: flex-end;
     }
 	}
 
 	&__content {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     z-index: $top-layer;
 
 		&--first-slide {
       max-width: 1200px;
       height: 546px;
-      display: flex;
       flex-direction: row;
       justify-content: space-between;
       align-items: center;
@@ -181,94 +163,62 @@ $slide-max-width: 1440px;
 
     &--second-slide {
       max-width: 470px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: flex-start;
 		}
 
     &--third-slide {
       max-width: 400px;
       min-height: 465px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
       align-items: center;
 		}
 
     &--fourth-slide {
-      display: flex;
       flex-direction: row;
       justify-content: space-between;
-      align-items: flex-start;
 		}
 
     &--fifth-slide {
       width: 700px;
       height: 100%;
-      display: flex;
-      flex-direction: column;
       justify-content: space-between;
-      align-items: flex-start;
 		}
 
     &--sixth-slide {
       width: 580px;
       height: 100%;
-      display: flex;
-      flex-direction: column;
       justify-content: flex-start;
-      align-items: flex-start;
 		}
 
     &--seventh-slide {
       width: 520px;
       height: 100%;
-      display: flex;
-      flex-direction: column;
       justify-content: space-between;
-      align-items: flex-start;
 		}
 	}
 
 	&__text-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 
 	  &--first-slide {
-      width: 100%;
       max-width: 510px;
       height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: flex-start;
 		}
 
     &--second-slide {
-      width: 100%;
       max-width: 470px;
       height: 100%;
-      display: flex;
-      flex-direction: column;
       justify-content: center;
-      align-items: flex-start;
 		}
 
     &--fifth-slide {
-      width: 100%;
       height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: flex-start;
 		}
 
     &--seventh-slide {
-      width: 100%;
       height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      align-items: flex-start;
 		}
 	}
 
@@ -289,9 +239,9 @@ $slide-max-width: 1440px;
 
     &--third-slide {
       font-weight: $bold;
-      margin-top: 55px;
       font-size: 3.333rem;
       text-align: center;
+      margin-top: 55px;
 		}
 
     &--fourth-slide {
@@ -323,14 +273,13 @@ $slide-max-width: 1440px;
 	}
 
 	&__subtitle {
+    font-weight: $medium;
 
 		&--first-slide {
-      font-weight: $medium;
       font-size: 5.836rem;
 		}
 
     &--second-slide {
-      font-weight: $medium;
       font-size: 3.662rem;
 		}
 	}
@@ -343,16 +292,16 @@ $slide-max-width: 1440px;
 		}
 
     &--second-slide {
-      margin-top: 50px;
       font-weight: $medium;
       font-size: 2.5rem;
+      margin-top: 50px;
 		}
 
     &--third-slide {
-      margin-top: 30px;
       font-size: 2.083rem;
       line-height: 2.5rem;
       text-align: center;
+      margin-top: 30px;
 		}
 
     &--fourth-slide {
@@ -374,15 +323,15 @@ $slide-max-width: 1440px;
 	}
 
 	&__button {
-    text-decoration: none;
-    cursor: pointer;
     display: inline-block;
-    border: 1px solid $white;
-    text-align: center;
     font-size: 2.76rem;
     line-height: 2.76rem;
     color: $white;
+    text-decoration: none;
     background-color: transparent;
+    text-align: center;
+    border: 1px solid $white;
+    cursor: pointer;
 
 		&--first-slide {
       width: 100%;
@@ -449,9 +398,9 @@ $slide-max-width: 1440px;
   &__form {
 
     &--sixth-slide {
-      margin-top: 100px;
       align-self: center;
       text-align: center;
+      margin-top: 100px;
     }
 
     &-suptitle {
@@ -469,8 +418,8 @@ $slide-max-width: 1440px;
       &--sixth-slide {
         font-weight: $bold;
         font-size: 6.277rem;
-        font-style: oblique;
         line-height: 7.653rem;
+        font-style: oblique;
         letter-spacing: 10px;
       }
     }
@@ -488,11 +437,11 @@ $slide-max-width: 1440px;
     &-source {
   
       &--sixth-slide {
+        min-width: 200px;
+        min-height: 65px;
         font-size: inherit;
         color: inherit;
         text-decoration: none;
-        min-width: 200px;
-        min-height: 65px;
         background-color: transparent;
         border: 1px solid $white;
         display: inline-block;
@@ -644,7 +593,6 @@ $slide-max-width: 1440px;
     bottom: 0;
   }
 }
-
 
 ::placeholder {
   font-family: $montserrat;
