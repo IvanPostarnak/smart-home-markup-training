@@ -30,6 +30,7 @@ The THIRD markup of mine, a little better than the previous ones
 - [x] set font-size relatively, based on the `:root { font-size: 10px; }` (math with 10px is much easier than with 14px or 16px)
 - [x] started using `SCSS` preprocessor of CSS, including `$preprocessor-directive` and `@import './relative/path/scss-module-name'`
 - [x] organize modules and project structure according to the BEM methodology (+-)
+- [x] started using `<a>` tag insted of `<button>` one for elements such as "See more", "Read More" etc
 - [x] partly achieved full cross-browser support
     - Google Chrome :heavy_check_mark:
     - Mozilla Firefox :heavy_check_mark:
