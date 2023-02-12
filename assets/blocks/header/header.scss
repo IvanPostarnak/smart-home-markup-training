@@ -51,6 +51,10 @@ $white: #ffffff;
     text-align: end;
     padding: 12px 27px;
     border: 1px solid $white;
+    -webkit-border-radius: 20px / 50%;
+    -moz-border-radius: 20px / 50%;
+    -ms-border-radius: 20px / 50%;
+    -o-border-radius: 20px / 50%;
     border-radius: 20px / 50%;
     outline: none;
   }

@@ -120,6 +120,10 @@ $slide-max-width: 1440px;
       align-items: center;
 
       border: 1px solid $white;
+      -webkit-border-radius: 45px;
+      -moz-border-radius: 45px;
+      -ms-border-radius: 45px;
+      -o-border-radius: 45px;
       border-radius: 45px;
       background-color: rgba($white, 0.2);
       padding: 35px;
@@ -385,6 +389,10 @@ $slide-max-width: 1440px;
       max-width: 280px;
       height: 55px;
       padding: 12px 27px;
+      -webkit-border-radius: 30px / 50%;
+      -moz-border-radius: 30px / 50%;
+      -ms-border-radius: 30px / 50%;
+      -o-border-radius: 30px / 50%;
       border-radius: 30px / 50%;
 		}
 
@@ -393,6 +401,10 @@ $slide-max-width: 1440px;
       min-width: 280px;
       height: 50px;
       padding: 10px 65px;
+      -webkit-border-radius: 25px / 50%;
+      -moz-border-radius: 25px / 50%;
+      -ms-border-radius: 25px / 50%;
+      -o-border-radius: 25px / 50%;
       border-radius: 25px / 50%;
 		}
 	}
@@ -562,6 +574,10 @@ $slide-max-width: 1440px;
   background-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -ms-background-size: auto;
+  -o-background-size: auto;
   background-size: auto;
 
   &--first {

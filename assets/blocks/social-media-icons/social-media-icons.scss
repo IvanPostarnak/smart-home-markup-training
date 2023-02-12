@@ -16,6 +16,10 @@
     height: 28px;
     background-position: center;
     background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -ms-background-size: contain;
+    -o-background-size: contain;
     background-size: contain;
   }
 }
