@@ -22,7 +22,7 @@ The THIRD markup of mine, a little better than the previous ones
     
 ----
 ## Things I've achieved in markup by this moment:
-- [x] I've added semantic tags of HTML, such as `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, `<footer>` and `<address>`.
+- [x] I've added semantic tags of HTML, such as `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, `<footer>` and `<address>`
 - [x] using only one of each `<h1> - <h6>` headers (with one exception)
 - [x] add `<meta name="author">` and `<meta name="description">`, as well as commented copyrights into html file
 - [x] using `oblique` isntead of `italic`
