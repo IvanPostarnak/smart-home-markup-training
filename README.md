@@ -31,6 +31,7 @@ The THIRD markup of mine, a little better than the previous ones
 - [x] started using `SCSS` preprocessor of CSS, including `$preprocessor-directive` and `@import './relative/path/scss-module-name'`
 - [x] organize modules and project structure according to the BEM methodology (+-)
 - [x] started using `<a>` tag insted of `<button>` one for elements such as "See more", "Read More" etc
+- [x] partly using BEM (not perfectly)
 - [x] partly achieved full cross-browser support
     - Google Chrome :heavy_check_mark:
     - Mozilla Firefox :heavy_check_mark:
@@ -52,6 +53,7 @@ The THIRD markup of mine, a little better than the previous ones
 - [ ] add `.gitignore` and ignore .css.map building files
 - [ ] check mixins and predicate operators of SCSS
 - [ ] use `<noscript>` html tag
+- [ ] keep honing BEM methodology
 
 ----
 ## Contacts
